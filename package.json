@@ -21,6 +21,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
+    "babel-polyfill": "^6.7.4",
     "postcss": "^5.0.19",
     "postcss-cssnext": "^2.5.2",
     "postcss-import": "^8.1.0",
