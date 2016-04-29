@@ -8,7 +8,7 @@ No server config needed. It runs on `webpack-dev-server` with hot reload.
 - PostCSS
 - Webpack
 - Babel ES2015
-- React Router
+- React Router (https://github.com/reactjs/react-router/tree/master/examples/huge-apps)
 
 ## To run
 

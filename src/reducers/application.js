@@ -2,12 +2,11 @@ import * as actions from '../actions'
 import createReducer from './_create_reducers'
 
 const startSpinner = (state, { payload }) => {
-  return Object.assign({}, state, {isSpinnerOn: true})
+  return {...state, isSpinnerOn: true}
 }
 
 const stopSpinner = (state, {payload}) => {
-  console.log('state', state)
-  return Object.assign({}, state, {isSpinnerOn: false})
+  return {...state, isSpinnerOn: false}
 }
 
 const handlers = {
